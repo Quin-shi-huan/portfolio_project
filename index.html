@@ -1,74 +1,251 @@
 <!DOCTYPE html>
 
 <html lang="pt-BR">
-    <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <meta charset="UTF-8">
-        <meta name="description" content="My portfolio dev with my projects entirely created with HTML and CSS">
-        <meta name="viewport" content="width=device-width, intial-scale=1.0, user-scalable=1.0">
-        <link rel="stylesheet" href="styles/reset.css">
-        <link rel="stylesheet" href="styles/index.css">
-        <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Maven+Pro:wght@400..900&display=swap" rel="stylesheet">
-        <title>Portfolio - Dev</title>
-    </head>
 
-    <body>
-        <header>
-            <section class="container" id="profile">
-                <div class="user__profile">
-                    <img src="assets/gif/react-gif.gif" alt="react logo" class="react-gif">
-                    <img src="assets/icons/code.png" alt="code logo">
-                </div>
-    
-                <div class="presentations">
-                    <p class="subtitle-inconsolata">Hello world! my name is <span class="">Eduardo Phelipe</span> and iam</p>
-                    <h1 class="text-lg-asap">Fullstack Developer</h1>
-                </div>
-                
-    
-                <div class="profile-description">
-                    <p class="text-sm-maven">I transform needs into real, evolving and functional applications. I develop systems through my passion for technology, contributing with innovative and effective solutions to complex challenges.</p>
-                </div>
-    
-                <div class="skills_container">
-                    <section id="skills">
-                        <div class="skills__items">
-                            <img src="assets/icons/github.svg" alt="GitHub">
-                            <p class="text-md-maven">GitHub</p>
-                        </div>
-                        
-                        <div class="skills__items">
-                            <img src="assets/icons/html.svg" alt="HTML">
-                            <p class="text-md-maven">HTML</p>
-                        </div>
-                        
-                        <div class="skills__items">
-                            <img src="assets/icons/css.svg" alt="CSS">
-                            <p class="text-md-maven">CSS</p>
-                        </div>
-                        
-                        <div class="skills__items">
-                            <img src="assets/icons/javascript.svg" alt="JavaScript">
-                            <p class="text-md-maven">JavaScript</p>
-                        </div>
-                        
-                        <div class="skills__items">
-                            <img src="assets/icons/react.svg" alt="React">
-                            <p class="text-md-maven">React</p>
-                        </div>
-                        
-                        <div class="skills__items">
-                            <img src="assets/icons/nodejs.svg" alt="NodeJs">
-                            <p class="text-md-maven">Node.js</p>
-                        </div>
-                    </section>
-            </section>
-        </header>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="UTF-8">
+    <meta name="description" content="My portfolio dev with my projects entirely created with HTML and CSS">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0, user-scalable=1.0">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Maven+Pro:wght@400..900&display=swap"
+        rel="stylesheet">
+    <title>Portfolio - Dev</title>
+</head>
 
-        <div class="dropdown-caret">
-            <img src="assets/icons/caretdoublebottom.svg" alt="">
-        </div>
+<body>
+    <header id="header-container">
+        <section class="container" id="profile">
+            <div class="user__profile">
+                <img src="assets/gif/react-gif.gif" alt="react logo" class="react-gif">
+                <img src="assets/icons/code.png" alt="code logo">
+            </div>
 
-    </body>
+            <div class="presentations">
+                <p class="subtitle-inconsolata">Hello world! my name is <span class="">Eduardo Phelipe</span> and iam
+                </p>
+                <h1 class="text-lg-asap">Fullstack Developer</h1>
+            </div>
+
+
+            <div class="profile-description">
+                <p class="text-sm-maven">I transform needs into real, evolving and functional applications. I develop
+                    systems through my passion for technology, contributing with innovative and effective solutions to
+                    complex challenges.</p>
+            </div>
+
+            <div class="skills_container">
+                <section id="skills">
+                    <div class="skills__items">
+                        <img src="assets/icons/github.svg" alt="GitHub">
+                        <p class="text-md-maven">GitHub</p>
+                    </div>
+
+                    <div class="skills__items">
+                        <img src="assets/icons/html.svg" alt="HTML">
+                        <p class="text-md-maven">HTML</p>
+                    </div>
+
+                    <div class="skills__items">
+                        <img src="assets/icons/css.svg" alt="CSS">
+                        <p class="text-md-maven">CSS</p>
+                    </div>
+
+                    <div class="skills__items">
+                        <img src="assets/icons/javascript.svg" alt="JavaScript">
+                        <p class="text-md-maven">JavaScript</p>
+                    </div>
+
+                    <div class="skills__items">
+                        <img src="assets/icons/react.svg" alt="React">
+                        <p class="text-md-maven">React</p>
+                    </div>
+
+                    <div class="skills__items">
+                        <img src="assets/icons/nodejs.svg" alt="NodeJs">
+                        <p class="text-md-maven">Node.js</p>
+                    </div>
+                </section>
+        </section>
+    </header>
+
+    <div class="dropdown-caret">
+        <img src="assets/icons/caretdoublebottom.svg" alt="caret double down">
+    </div>
+
+    <main>
+        <section id="projects" class="container">
+            <header>
+                <span class="subtitle-inconsolata">My work</span>
+                <h2 class="text-md-asap">see featured projects</h2>
+            </header>
+
+            <div class="card">
+                <div class="card__item">
+                    <img src="/assets/images/Thumbnail_Project-01.png" alt="first project">
+
+                    <div>
+                        <h3 class="text-sm-asap">Travelgram</h3>
+                        <p class="text-sm-maven">Social network where people share their travels around the world</p>
+                    </div>
+                </div>
+
+                <div class="card__item">
+                    <img src="/assets/images/Thumbnail_Project-02.png" alt="second project">
+
+                    <div>
+                        <h3 class="text-sm-asap">Tech News</h3>
+                        <p class="text-sm-maven">Homepage of a technology news portal</p>
+                    </div>
+                </div>
+
+                <div class="card__item">
+                    <img src="/assets/images/Thumbnail_Project-03.png" alt="third project">
+
+                    <div>
+                        <h3 class="text-sm-asap">Recipe Page</h3>
+                        <p class="text-sm-maven">Page with step-by-step instructions for a cupcake recipe</p>
+                    </div>
+                </div>
+
+                <div class="card__item">
+                    <img src="/assets/images/Thumbnail_Project-04.png" alt="fourth project">
+
+                    <div>
+                        <h3 class="text-sm-asap">Zingen</h3>
+                        <p class="text-sm-maven">Complete and responsive landing page for a Karaoke app</p>
+                    </div>
+                </div>
+
+                <div class="card__item">
+                    <img src="/assets/images/Thumbnail_Project-05.png" alt="fifth project">
+
+                    <div>
+                        <h3 class="text-sm-asap">Refund</h3>
+                        <p class="text-sm-maven">A system for requesting and tracking reimbursement</p>
+                    </div>
+                </div>
+
+                <div class="card__item">
+                    <img src="/assets/images/Thumbnail_Project-06.png" alt="sixth project">
+
+                    <div>
+                        <h3 class="text-sm-asap">Tourism Page</h3>
+                        <p class="text-sm-maven">Page with the main information for those who want to travel to Busan
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="container">
+            <header>
+                <span class="subtitle-inconsolata">My services</span>
+                <h2 class="text-md-asap">How can I help your business</h2>
+            </header>
+
+            <div class="services__cards">
+                <div class="card_items">
+                    <img src="assets/icons/Devices.svg" alt="devices">
+
+                    <div>
+                        <h3 class="text-sm-asap">Websites and Applications</h3>
+                        <p class="text-sm-maven">Interface development</p>
+                    </div>
+                </div>
+
+                <div class="card_items">
+                    <img src="assets/icons/HardDrives.svg" alt="hard drives">
+
+                    <div>
+                        <h3 class="text-sm-asap">API and database</h3>
+                        <p class="text-sm-maven">Creating system services</p>
+                    </div>
+                </div>
+
+                <div class="card_items">
+                    <img src="assets/icons/Infinity.svg" alt="infinity">
+
+                    <div>
+                        <h3 class="text-sm-asap">DevOps</h3>
+                        <p class="text-sm-maven">Application management and infrastructure</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="container">
+            <header>
+                <span class="subtitle-inconsolata">Contact</span>
+                <h3 class="text-md-asap">liked my work?</h3>
+                <p class="text-md-maven">Get in touch or follow me on social media!</p>
+            </header>
+
+            <nav>
+                <ul class="links__list">
+                    <li class="links__items">
+                        <a href="#" class="text-md-maven">
+                            <div>
+                                <img src="assets/icons/LinkedinLogo.svg" alt="Linkedin">
+                                Linkedin
+                            </div>
+
+                            <div>
+                                <img src="assets/icons/ArrowUpRight.svg" alt="arrow up right">
+                            </div>
+                        </a>
+
+                    </li>
+
+                    <li class="links__items">
+                        <a href="#" class="text-md-maven">
+                            <div>
+                                <img src="assets/icons/InstagramLogo.svg" alt="Instagram">
+                                Instagram
+                            </div>
+
+
+                            <div>
+                                <img src="assets/icons/ArrowUpRight.svg" alt="arrow up right">
+                            </div>
+                        </a>
+
+                    </li>
+
+                    <li class="links__items">
+                        <a href="#" class="text-md-maven">
+                            <div>
+                                <img src="assets/icons/GithubLogo.svg" alt="GitHub">
+                                GitHub
+                            </div>
+
+                            <div>
+                                <img src="assets/icons/ArrowUpRight.svg" alt="arrow up right">
+                            </div>
+                        </a>
+
+                    </li>
+
+                    <li class="links__items">
+                        <a href="#" class="text-md-maven">
+                            <div>
+                                <img src="assets/icons/EnvelopeSimple.svg" alt="E-mail">
+                                E-mail
+                            </div>
+
+                            <div>
+                                <img src="assets/icons/ArrowUpRight.svg" alt="arrow up right">
+                            </div>
+                        </a>
+
+                    </li>
+                </ul>
+            </nav>
+        </section>
+    </main>
+</body>
+
 </html>
