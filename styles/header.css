@@ -1,0 +1,79 @@
+header {
+    background-image: url(../assets/images/Background_Intro.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-block-start: 80px;
+
+    #profile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        width: 100%;
+        height: 100vh;
+        max-height: 750px;
+    }
+
+    .user__profile {
+        position: relative;
+
+        img:nth-child(2) {
+            position: absolute;
+            top: 60px;
+            left: 65px;
+        }
+    }
+
+    .react-gif {
+        width: 80px;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+
+        border-radius: 50px;
+        border: 2px solid var(--red);
+        padding: 5px;
+    }
+
+    .presentations {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        p span {
+            color: var(--red)
+        }
+    }
+
+    div:nth-child(2) p.subtitle-inconsolata {
+        margin-block: 56px 8px;
+    }
+
+    .profile-description {
+        margin-top: 20px;
+
+        width: 50%;
+        text-align: center;
+    }
+}
+
+.skills_container {
+    margin-block-start: 80px;
+
+    #skills {
+        display: flex;
+        gap: 16px;
+
+        .skills__items {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background-color: var(--gray-300);
+            border-radius: 50px;
+            padding: 8px 16px;
+        }
+
+        .skills__items:hover {
+            background-color: var(--gray-100);
+        }
+    }
+}
