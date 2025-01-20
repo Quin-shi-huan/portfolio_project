@@ -1,0 +1,38 @@
+:root{
+    /* COLORS */
+
+    /* principal */
+
+    --red: #E3646E;
+    --purple: #BB72E9;
+    --blue: #3996BD;
+    --green: #82BC4F;
+    --yellow: #EABD5F;
+
+    /* base */
+
+    --gray-100: #0D0E11 ;
+    --gray-200: #16181D ;
+    --gray-300: #292C34 ;
+    --gray-400: #878EA1 ;
+    --gray-500: #C0C4CE ;
+    --gray-600: #E2E4E9 ;
+
+    
+    /* TYPOGRAPHY */
+
+    /* Asap */
+    --font-family-asap: "Asap", serif, sans-serif;
+    --title-lg-asap: 700 56px/120% var(--font-family-asap);
+    --title-md-asap: 700 24px/120% var(--font-family-asap);
+    --title-sm-asap: 700 16px/120% var(--font-family-asap);
+    
+    /* Inconsolata */
+    --font-family-inconsolata: "Inconsolata", serif, sans-serif:
+    --subtitle-inconsolata: 400 20px/120% var(--font-family-inconsolata)
+
+    /* Maven Pro */
+    --font-family-maven-pro: "Maven Pro", serif, sans-serif:
+    --text-md-maven-pro: 400 16px/140% var(--font-family-maven-pro);
+    --text-sm-maven-pro: 400 14px/140% var(--font-family-maven-pro);
+}
